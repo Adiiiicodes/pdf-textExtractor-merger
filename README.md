@@ -1,3 +1,7 @@
+Here’s the updated README with the mention of the installer file available in the repository:
+
+---
+
 # PDF Utility GUI
 
 ## Table of Contents
@@ -30,18 +34,29 @@
 - `pypdf` library
 
 ## Installation
+
+You can install the application by using the setup file provided in the repository.
+
+### Method 1: Using the Installer
+- Download the installer (`setup.exe`) from the GitHub repository.
+- Double-click the installer to install the application on your system.
+- After installation, you can launch the PDF Utility directly from your Start Menu or desktop shortcut.
+
+### Method 2: Run the Script
+
 1. Ensure you have Python 3.x installed on your system.
 2. Install the required `pypdf` library using pip:
     ```bash
     pip install pypdf
     ```
 3. Download the `pdf_utility_gui.py` file to your local machine.
+4. Run the script using Python:
+    ```bash
+    python pdf_utility_gui.py
+    ```
 
 ## Usage
-Run the script using Python:
-```bash
-python pdf_utility_gui.py
-```
+Once installed, simply run the application by launching the installed program or running the Python script.
 
 ## User Interface
 The application window contains the following elements:
@@ -83,7 +98,6 @@ The application window contains the following elements:
 - **Unsupported PDF Features**: Complex PDFs with forms, encryption, or other advanced features may not be fully supported.
 - **Error Handling**: While the application handles basic errors, unexpected issues may cause it to crash. Always save your work before processing important documents.
 
-Remember to regularly update the `pypdf` library to ensure you have the latest features and bug fixes. If you encounter persistent issues or have feature requests, consider reporting them to the project maintainers.
-
 --- 
 
+This version directs users to the setup file available in your GitHub repository for a more user-friendly installation process.
