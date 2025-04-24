@@ -1,6 +1,3 @@
-Here’s the updated README with the mention of the installer file available in the repository:
-
----
 
 # PDF Utility GUI
 
@@ -98,6 +95,3 @@ The application window contains the following elements:
 - **Unsupported PDF Features**: Complex PDFs with forms, encryption, or other advanced features may not be fully supported.
 - **Error Handling**: While the application handles basic errors, unexpected issues may cause it to crash. Always save your work before processing important documents.
 
---- 
-
-This version directs users to the setup file available in your GitHub repository for a more user-friendly installation process.
